@@ -1,0 +1,108 @@
+ASSIGNMENT 5
+
+Purpose
+This assignment is the second of a mini project where you are demonstrating your understanding of the modules of this class.
+The mini project is about building a small ETL program in python. Each pat of the project focuses on different portions / stages of the ETL process.
+Assignment Background
+
+Summarizing your acquired knowledge from module 5, we are going to focus on the L part of the ETL process. For reference, ETL stands for Extract, Transform, Load. We are going to focus here on Load.
+Assignment Statement
+
+Save data in a database
+Read data from a database
+
+You are required to supply Last Name_First Name_Project_Part2.py and Last Name_First Name_create_dbs.py.  Please upload as a single zip file.
+
+Requirements:
+
+
+
+Stocks stats:
+#Calculate and print the number of tickers by exchange_country using a dictionary.
+
+
+
+
+
+
+
+
+Good code includes well named variables that are consistent from the beginning to the end of the program.  Naming of objects should be self-explanatory.  For instance, iterator_for_noun_list is much better than i.
+
+Every program consists of a sequence of paragraphs, each of which has objectives, and which builds on the previous paragraphs. We are mostly interested in objectives that are valid at the end of the program so we can verify the program's design. The following is a preferred form for such paragraph headings.  The # sign is adequate when the comment is a single line.
+
+#This is an in-line comment – used to document the code for you, or anyone else, that intends
+#To extend the code
+
+In-line comments are helpful when one has to go back to the code 6 months later to make changes.
+
+For doc strings, python allows the use of triple quotes.  The triple quotes can be either single or double quotes.  A doc sting is generally used as user documentation.  It does not need to include details of the implementation of the program, but instead it provides documentation as how to use the API for the program (input, output etc.)
+
+For example:
+
+“””
+This is an example of a doc string
+It allows multiple lines within the string.
+
+“””
+‘’’
+This is an example of a doc string
+It allows multiple lines within the string.
+
+‘’’
+This becomes significant when using functions, classes etc. as the triple quotes help to self-document the parameters and return values of the function.
+
+Sample Output: The output is a sample and is not complete
+
+0.083 400,000.00
+0.130 600,000.00
+0.132 1,500,000.00
+0.147 6,333,333.00
+0.158 14,726,910.00
+0.159 3,850,000.00
+
+IE 1
+CA 10
+ZA 1
+JP 37
+NO 2
+SE 7
+
+
+What to Deliver
+
+Supply
+You are required to supply Last Name_First Name_Project_Part2.py and Last Name_First Name_create_dbs.py.  Please upload as a single zip file.
+
+
+Notes
+
+Assignments can be submitted once.  If extenuating circumstances exist, contact your facilitator.
+Note the statement in the syllabus on timeliness of submissions (the gist being that all assignments must observe the deadlines).
+Start by identifying and ordering the objectives.
+There are no testing requirements for this assignment.  However, it would be prudent to make sure your program does not crash and all input validation is performed correctly.
+
+
+Grading
+
+
+Step 2 -10 pts
+Step 3 – 10 pts
+Step 4a – 2 pts
+Step 4b – 2 pts
+Step 4c – 2 pts
+Step 4d – 4 pts
+Step 5a – 1 pt
+Step 5b.1 – 5 pts
+Step 5b.2 – 5 pts
+Step 6a – 1 pt
+Step 6b.1 – 10 pts
+Step 6b.2 – 10 pts
+Step 7 – 2 pts
+Step 8 – 2pts
+Step 9 – 2 pts
+Step 10 – 2 pts
+Step 11 – 5 pts
+Step 12 – 5 pts
+Step 13 – 10 pts
+Step 14 – 10 pts

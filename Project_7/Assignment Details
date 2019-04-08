@@ -1,0 +1,101 @@
+Project Part 1
+ 
+
+Purpose
+This assignment is the first of a mini project where you are going to demonstrate your understanding of the modules of this class.
+The mini project is about building a small ETL program in python. Each part will focus on different portions / stages of the ETL process.
+Assignment Background
+
+Summarizing your acquired knowledge from modules 1-4, we are going to focus on the E part of the ETL process. For reference, ETL stands for Extract, Transform, Load. We are going to focus here on Extract.
+Assignment Statement
+
+Read CSV files
+Load the content of the CSV files into usable records
+Use polymorphism to hold data
+Use inheritance to process data
+
+The file__init__.py is blank and should not be modified. You are required to supply Last Name_First Name_Project_Part1.py.
+
+
+
+
+
+
+Requirements:
+
+$$To extract the raw data (row) into a usable format that can be relied upon by the rest of your application,
+$$we will define the concept of a record.
+
+#For floats please only display 2 decimal numbers (2 numbers after the comma)
+
+
+
+
+
+
+
+Code/Comment Format
+
+Good code includes well named variables that are consistent from the beginning to the end of the program.  Naming of objects should be self-explanatory.  For instance, iterator_for_noun_list is much better than i.
+
+Every program consists of a sequence of paragraphs, each of which has objectives, and which builds on the previous paragraphs. We are mostly interested in objectives that are
+valid at the end of the program so we can verify the program's design. The following is a preferred form for such paragraph headings.  The # sign is adequate when the comment is a single line.
+
+#This is an in-line comment – used to document the code for you, or anyone else, that intends
+#To extend the code
+
+In-line comments are helpful when one has to go back to the code 6 months later to make changes.
+
+For doc strings, python allows the use of triple quotes.  The triple quotes can be either single or double quotes.  A doc sting is generally used as user documentation.  It does not need to include details of the implementation of the program, but instead it provides documentation as how to use the API for the program (input, output etc.)
+
+For example:
+
+“””
+This is an example of a doc string
+It allows multiple lines within the string.
+
+“””
+‘’’
+This is an example of a doc string
+It allows multiple lines within the string.
+
+‘’’
+This becomes significant when using functions, classes etc. as the triple quotes help to self-document the parameters and return values of the function.
+What to Deliver
+
+Supply
+A .doc file with any remarks/comments you want to make. We can insert feedback into the file. Include screen shots of key output. Please label this Word file <Last Name>_<First Name>_Assignment _2. For example, Smith_Joe_Assignment_1.
+The Last Name_First Name_Assignment2.py file (the __init__.py file is attached and should be left as is).
+
+Notes
+
+Assignments can be submitted once.  If extenuating circumstances exist, contact your facilitator.
+Note the statement in the syllabus on timeliness of submissions (the gist being that all assignments must observe the deadlines).
+Start by identifying and ordering the objectives.
+There are no testing requirements for this assignment.  However, it would be prudent to make sure your program does not crash and all input validation is performed correctly.
+
+Grading
+Please note that points for each step can be deducted for poorly documented code.  If you think something needs to be explained, add comments.
+
+Step 1a – 2 pts
+Step 2a – 2 pts
+Step 2b – 2 pts
+Step 2c – 2 pts
+Step 2d – 2 pts
+Step 3a – 2 pts
+Step 3b – 2 pts
+Step 3ci – 5 pts
+Step 3cii – 10 pts
+Step 3ciii – 5 pts
+Step 3civ – 5 pts
+Step 3cv – 5 pts
+Step 3cvi – 5 pts
+Step 4a – 2 pts
+Step 4b – 20 pts – 10 pts for each implementation of row_to_record
+Step 4c - 2 pts
+Step 4d – 2 pts
+Step 4e – 10 pts
+Step 5 – 5 pts
+Step 6 – 10 pts
+	5 pts load and print Baseball records
+	5 pts load and print Stock records
